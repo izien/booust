@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
+        <title>Izien's Booust Assigment Week 2</title>
+              <link rel="stylesheet" type="text/css" href="css/demo.css" />
+      <link rel="stylesheet" type="text/css" href="css/style3.css" />
+<link rel="stylesheet" type="text/css" href="css/animate-custom.css" />
+       <title>Booust 2.0</title>  
+        
+ <script type="text/javascript">
+function display_c(){
+var refresh=1000; // Refresh rate in milli seconds
+mytime=setTimeout('display_ct()',refresh)
+}
+
+function display_ct() {
+var strcount
+var x = new Date()
+document.getElementById('ct').innerHTML = x;
+tt=display_c();
+}
+</script> 
+                
+        <script type="text/javascript">
+function check() {
+    var animals = ["snake", "tiger", "fish", "lion", "dog"];
+    var name = prompt("Please animal name");
+    if (animals.indexOf(name)>=0) {
+        alert("Congratulations!!! Your guess is Right
+             ") 
+    } else {
+        alert("Please try again, you might be right this time");
+    }
+    document.getElementById("display").innerHTML = txt;
+}
+</script>
+         </head>
+
+
+<body onload=display_ct();>
+
+                  <header id="header" class="header style">
+<p id="CompanyName" class="CompanyNameStyle"><strong>Izien Atane</strong></p>
+        
+                                 
+
+    <time datetime="2016-09-06" class="icon" style="position: absolute; top: 35px;
+left: 465px">
+    <span id='ct' ></span>
+    </time>
+         
+            </header>
+        
+         <div id="container_demo" >
+                    <!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
+                    
+                    <div id="wrapper">
+                        <div id="login" class="animate form">
+                                            <h1>Animal Game</h1>
+                            <div></div>
+                            
+                                <form>
+<p> Can you guess an animal you can find here? <input type="text" placeholder="type in animal name" /></p>
+ <p class="login button"> 
+ <input type="button" onclick="check()"value="search"/></p>
+<p id="display"></p>                                
+                                    
+                                    
+</form>
+                               
+                                     
+                        </div>
+                        
+        
+              </div>
+    </div> 
+
+    <hr class="HRstyle" style="position: absolute; left: 0px; top:0px; width: px; height:0px; z-index: 3"/>
+<footer id="footer" class="footerStyle" style="position: absolute; left: 620px; top:525px; width: 390px; height:1px; z-index: 3">
+                               <hr class="HRstyle" />  
+    <p class="Copyright">Copyright &copy; 2018 <a href="http://www.izienatane.com"> Izien Atane </a> &trade; &reg; All Rights Reserved.</p>
+</footer>
+       </body>
+</html>
